@@ -23,9 +23,11 @@ namespace CheckGen.Tests
             Assert.AreEqual(result[0].Content, "发改委批复文件");
             Assert.AreEqual(result[0].IsPassed, false);
             Assert.AreEqual(result[0].Comment, "");
+        
 
             Assert.AreEqual(result.Count, 29 + 16);
         }
+
 
         [TestMethod()]
         public void isDigitTest()
